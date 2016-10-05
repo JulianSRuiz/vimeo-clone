@@ -1,0 +1,249 @@
+body {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.rainbow-bar {
+  width: 100%;
+  height: 5px;
+  background-color: #00ABED;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+}
+
+.navbar {
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  background-color: #EEF1F2;
+  border: 0;
+  margin-bottom:0;
+}
+
+#logo {
+  height: 40px;
+  width: 98px;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#join {
+  width: 50px;
+  height: 34px;
+  margin-right: 20px;
+  background-color: #7FC400;
+  color: white;
+  font-weight: 700;
+}
+
+#join_right {
+  width: 64px;
+  height: 34px;
+  background-color: #657987;
+  color: white;
+  font-weight: 700;
+}
+
+.navbarlinks {
+  margin-right: 10px;
+  align-items: center;
+  font-weight: 700;
+  line-height: 40px;
+  white-space: nowrap;
+  display: block;
+  color: #657987;
+}
+
+.blanknavspace {
+  width: 450px;
+}
+
+.input {
+  width: 260px;
+  height: 34px;
+  font-size: .9em;
+  font-weight: normal;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding-left: 10px;
+}
+
+.scrolling_images {
+  height: 400px;
+  display: flex;
+}
+.image-library{
+  position: absolute;
+  display: block;
+  width: 500px;
+  height: 200px;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+.showimage {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  z-index: -100;
+  display: inline-block;
+}
+
+.description {
+  z-index: 100;
+  position: relative;
+  left: 20px;
+  color: white;
+}
+
+.watchnow {
+  width: 140px;
+  height: 42px;
+  background-color: #00ABED;
+  font-weight: 700;
+  color: white;
+  margin-top: 10px;
+}
+
+.play {
+  width: 25px;
+  padding-right: 5px;
+}
+
+.header {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+span {
+  color: #00ABED;
+}
+
+.viewchannel {
+  padding-top: 30px;
+}
+
+.videorow {
+  width: 95%;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 400px;
+  display: flex;
+  z-index: -2;
+}
+
+.leftinfobar {
+  width: 235px;
+  height: 400px;
+  position: relative;
+  z-index: 100;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+.leftinfobar img {
+  height: 40%;
+  padding-left: 20px;
+}
+
+.leftinfotextcontainer {
+  padding-left: 20px;
+}
+
+.follow {
+  width: 160px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #00ABED;
+  color: white;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.topvideocontainer {
+  width: 100%;
+  /*background-color: lightgray;*/
+  display: flex;
+}
+
+/*.bottomvideocontainer {
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+}*/
+
+.video {
+  background-color: black;
+  margin-left: 20px;
+  width: 185px;
+  height: 195px;
+  justify-content: space-around;
+}
+
+footer {
+  font-size: .875em;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.lefttext {
+  display: inline-block;
+  align-items: flex-start;
+  width: 78%;
+}
+
+.righttext {
+  display: inline-block;
+  align-items: flex-end;
+}
+
+.phrasing {
+  color: darkgray;
+}
+
+.red {
+  color: red;
+}
+
+
+/* Error page CSS */
+.errorcontainer {
+  width: 1080px;
+  height: 550px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.robot {
+  width: 200px;
+}
+
+.searchbutton {
+  background-color: #00ABED;
+  color: white;
+  width: 82px;
+  height: 34px;
+  font-weight: 700;
+}
+
+.searchinput {
+  width: 565px;
+  height: 34px;
+  font-weight: 700;
+}
