@@ -13,24 +13,24 @@ angular.module("vimeoApp", [uiRouter])
     $urlRouterProvider.otherwise('/');
     $stateProvider
       .state('home', {
-        url: '/',
+        url: '/#/home',
         templateUrl: homeHtml
       })
       .state('welcome', {
-        url: '/welcome',
+        url: '/#/welcome',
         templateUrl: welcomeHtml
       })
       .state('recently-watched', {
-        url: "/recently-watched",
+        url: "/#/recently-watched",
         templateUrl: recently-watched
         // controller: "vimeoCtrl"
       })
       .state('favorites', {
-        url: "/favorites",
+        url: "/#/favorites",
         templateUrl: favorites
       })
       .state('login-error', {
-        url: "/login-error",
+        url: "/#/login-error",
         template: login-error
         // controller: "vimeoCtrl"
       })
