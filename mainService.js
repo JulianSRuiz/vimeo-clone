@@ -1,4 +1,5 @@
 angular.module("vimeoApp")
   .service("vimeoService", function($http) {
-    console.log("x");
+
+    const baseUrl = "https://api.vimeo.com/videos"
   })
