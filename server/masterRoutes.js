@@ -1,5 +1,5 @@
-const recentlyWatchedRoutes = require("../src/recentlyWatchedRoutes");
-const favoritesRoutes = require("../src/favoritesRoutes");
+const recentlyWatchedRoutes = require("../src/recentlywatched/recentlyWatchedRoutes");
+const favoritesRoutes = require("../src/favorites/favoritesRoutes");
 
 module.exports = app => {
   recentlyWatchedRoutes(app);

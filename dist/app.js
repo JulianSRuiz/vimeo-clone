@@ -4,7 +4,7 @@ import "./styles.css";
 import mainCtrl from "./controllers/mainCtrl.js";
 import homeHtml from './views/home.html';
 import welcomeHtml from './views/welcome.html';
-import favorites from '../views/favorites.html';
+import favorites from './views/favorites.html';
 // import login-error from '../views/loginerror.html';
 // const angular = require('angular');
 
@@ -22,11 +22,11 @@ angular.module("vimeoApp", [uiRouter])
       })
       .state('welcome', {
         url: '/welcome',
-        templateUrl: welcomeHtml
+        template: welcomeHtml
       })
       .state('favorites', {
-        url: "/#/favorites",
-        templateUrl: favorites
+        url: "/favorites",
+        template: favorites
       })
       // .state('login-error', {
       //   url: "/#/login-error",

@@ -344,7 +344,7 @@ footer {
 /*...............Welcome Page...........................*/
 .welcomecontainer {
   width: 100%;
-  padding: 20px 160px;
+  padding: 10px 160px;
 }
 
 .welcometag {
@@ -441,9 +441,9 @@ footer {
   height: 100px;
   border: 1px solid #E6E7E8;
   border-bottom: 3px solid #E6E7E8;
-  margin-left: 91px;
+  margin-left: 111px;
   margin-bottom: 10px;
-  padding-top: 25px;
+  padding-top: 10px;
   padding-left: 15px;
   vertical-align: middle;
   background-color: #EEF1F2;
@@ -498,4 +498,10 @@ footer {
 explore p {
   color: #74797D;
   padding-botom: 10px;
+}
+
+/*Favorites page...................................*/
+
+.htwofavorites {
+  font-weight: 700;
 }

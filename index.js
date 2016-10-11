@@ -10,6 +10,8 @@ const cors = require("cors");
 const app = express();
 const port = 4000;
 const masterRoutes = require("./server/masterRoutes");
+const Vimeo = require('vimeo').Vimeo;
+const lib = new Vimeo("9a8b8dc88f638a3e6b511a12ec52870f4b14a09c", "aoVM2Chp6SjpIrQxZA8c6HTyZ46LhCzRSoejLO7xpTcj5gYiTQpOVVfGsdVRAhYI2NnOCbmB08n0IxWedYSBOKjG/tGJgdSeEFLNjMWT8LTbMnMK43gkU6Zr9RwSxV+z", "876bdad096d2c406fd3a3807ac9e5f8e");
 
 
 const webpack = require('webpack');
