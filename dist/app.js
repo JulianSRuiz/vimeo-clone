@@ -5,8 +5,8 @@ import mainCtrl from "./controllers/mainCtrl.js";
 import homeHtml from './views/home.html';
 import welcomeHtml from './views/welcome.html';
 import favorites from './views/favorites.html';
-// import login-error from '../views/loginerror.html';
-// const angular = require('angular');
+import loginerror from './views/loginerror.html';
+
 
 
 
@@ -28,9 +28,8 @@ angular.module("vimeoApp", [uiRouter])
         url: "/favorites",
         template: favorites
       })
-      // .state('login-error', {
-      //   url: "/#/login-error",
-      //   template: login-error
-      //   // controller: "vimeoCtrl"
-      // })
+      .state('loginerror', {
+        url: "/loginerror",
+        template: loginerror
+      })
   });

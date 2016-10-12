@@ -1,9 +1,55 @@
+<link rel="stylesheet" type="text/css" href="../slick-1.6.0/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="../slick-1.6.0/slick/slick-theme.css"/>
+
+
 <div class="scrolling_images">
-    <img class="showimage" src="./../images/breakingbad.jpg" alt="Breaking Bad">
-    <div class="image-library">
+
+
+    <div class="image-library item-1">
+        <!-- <div class="description">
+            <h2>Nick Wooster</h2>
+            <p>from <span>archinoid</span></p>
+            <p>biodiesel asymmetrical, coloring book activated charcoal hella post-ironic kogi gentrify literally authentic 3 wolf moon. Thundercats mumblecore mlkshk.
+            </p>
+            <div class="scrollingwatchnow"><button class="watchnow"><img class="play" src="./../images/playicon.png" alt=""> Watch Now</button></div>
+        </div> -->
+
+    </div>
+
+    <div class="image-library item-2">
+        <!-- <div class="description">
+            <h2>Distinguished Gentleman's Ride</h2>
+            <p>from <span>joematpal</span></p>
+            <p>biodiesel asymmetrical, coloring book activated charcoal hella post-ironic kogi gentrify literally authentic 3 wolf moon. Thundercats mumblecore mlkshk.
+            </p>
+            <div class="scrollingwatchnow"><button class="watchnow"><img class="play" src="./../images/playicon.png" alt=""> Watch Now</button></div>
+        </div> -->
+    </div>
+
+    <div class="image-library item-3">
+        <!-- <div class="description">
+            <h2>CHVRCHES</h2>
+            <p>from <span>tarynisbusy</span></p>
+            <p>biodiesel asymmetrical, coloring book activated charcoal hella post-ironic kogi gentrify literally authentic 3 wolf moon. Thundercats mumblecore mlkshk.
+            </p>
+            <div class="scrollingwatchnow"><button class="watchnow"><img class="play" src="./../images/playicon.png" alt=""> Watch Now</button></div>
+        </div> -->
+    </div>
+
+    <div class="image-library item-4">
+        <!-- <div class="description">
+            <h2>Jester King</h2>
+            <p>from <span>dontdolessthen</span></p>
+            <p>biodiesel asymmetrical, coloring book activated charcoal hella post-ironic kogi gentrify literally authentic 3 wolf moon. Thundercats mumblecore mlkshk.
+            </p>
+            <div class="scrollingwatchnow"><button class="watchnow"><img class="play" src="./../images/playicon.png" alt=""> Watch Now</button></div>
+        </div> -->
+    </div>
+
+    <div class="image-library item-5">
         <div class="description">
-            <h2>Breaking Bad</h2>
-            <p>from archinoid</p>
+            <h2>Life in Utah</h2>
+            <p>from <span>modulestartingpoint</span></p>
             <p>biodiesel asymmetrical, coloring book activated charcoal hella post-ironic kogi gentrify literally authentic 3 wolf moon. Thundercats mumblecore mlkshk.
             </p>
             <div class="scrollingwatchnow"><button class="watchnow"><img class="play" src="./../images/playicon.png" alt=""> Watch Now</button></div>
@@ -34,3 +80,19 @@
       <div class="video"></div>
     </div>
 </div>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="../slick-1.6.0/slick/slick.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.scrolling_images').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear'
+    });
+  });
+</script>

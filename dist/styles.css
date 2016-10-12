@@ -160,27 +160,46 @@ button {
   display: flex;
 }
 .image-library{
-  position: absolute;
-  display: block;
-  width: 500px;
-  height: 200px;
-  padding-top: 100px;
-  padding-left: 50px;
-}
-.showimage {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
-  z-index: -100;
-  display: inline-block;
+  height: 400px;
+  position: absolute;
 }
 
 .description {
   z-index: 100;
   position: relative;
   left: 20px;
+  display: block;
+  width: 500px;
+  padding-top: 100px;
+  padding-left: 50px;
   color: white;
+  top: 0;
+}
+
+div.item-1 {
+  background: url("http://localhost:4000/images/nw-crop.jpg");
+  background-size: cover;
+}
+
+div.item-2 {
+  background: url("http://localhost:4000/images/moto-crop-shade.jpg");
+  background-size: cover;
+}
+
+div.item-3 {
+  background: url("http://localhost:4000/images/lm2.jpg");
+  background-size: cover;
+}
+
+div.item-4 {
+  background: url("http://localhost:4000/images/jk2.jpg");
+  background-size: cover;
+}
+
+div.item-5 {
+  background: url("http://localhost:4000/images/mtn.jpg");
+  background-size: cover;
 }
 
 .watchnow {
@@ -293,6 +312,7 @@ footer {
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
+  border-top: 1px solid lightgray;
 }
 
 .lefttext {
@@ -317,14 +337,25 @@ footer {
 
 /*............... Error page CSS...................... */
 .errorcontainer {
-  width: 1080px;
-  height: 550px;
-  margin: 0 auto;
-  padding: 50px 20px;
+  height: 500px;
+  vertical-align: middle;
+  padding-left: 275px;
+  padding-top: 50px;
+  margin-bottom: 150px;
+}
+
+.errorcontainer h1 {
+  font-weight: 700;
+}
+
+.errorcontainer p {
+  padding-top: 20px;
 }
 
 .robot {
   width: 200px;
+  margin-left: 235px;
+  padding-bottom: 25px;
 }
 
 .searchbutton {
@@ -338,7 +369,7 @@ footer {
 .searchinput {
   width: 565px;
   height: 34px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 /*...............Welcome Page...........................*/
@@ -455,6 +486,10 @@ footer {
   height: 700px;
 }
 
+.feed-right-container ul {
+  margin-left: -40px;
+}
+
 .mypeoplebar {
   width: 100%;
   font-size: 18px;
@@ -490,9 +525,9 @@ footer {
   font-weight: 700;
   list-style-type: none;
   color: black;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-right: 10px;
-  border-top: 1px solid #74797D;
+  border-top: 1px solid #E6E7E8;
 }
 
 explore p {
