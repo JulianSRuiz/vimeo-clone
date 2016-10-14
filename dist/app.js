@@ -6,7 +6,10 @@ import homeHtml from './views/home.html';
 import welcomeHtml from './views/welcome.html';
 import favorites from './views/favorites.html';
 import loginerror from './views/loginerror.html';
-
+import "jquery"
+import "bootstrap/dist/js/bootstrap.js";
+import "bootstrap/dist/css/bootstrap.css";
+// import "!style!css!sass!./file.scss"
 
 
 
